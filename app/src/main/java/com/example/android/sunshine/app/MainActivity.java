@@ -87,8 +87,6 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
      * Method to request permission for camera
      */
     private void requestCameraPermission() {
-
-
         // Camera permission has not been granted yet. Request it directly.
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA},
                 REQUEST_CAMERA);
